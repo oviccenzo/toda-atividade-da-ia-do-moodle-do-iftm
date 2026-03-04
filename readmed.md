@@ -23,10 +23,12 @@ Foi adotado a uma arquitetura de rede neural recorrente do tipo LSTM().
 Essa capcidade justifica a escolha do LSTM em aprender dependencia de longo prazo em sequencia temporais,
 superando ate a rede neural densa tradicionais no tratamento financeiro de dados.
 
-5)
+5)A analise de exploratorio consiste em:
+visualização do preço do fechamento
+comparação historico ativos
+calculo de retorno diarios
+A identificação das tendêcias, volatibilidade e padrões
+
+Esses graficos permitem compreender a dinamica de cada serie individual ante da modelagem
 
 6)
-
-7)
-
-8)
