@@ -19,7 +19,7 @@ Previsão de Séries Temporais Financeiras com Redes Neurais
   fim: 01 de janeiro de 2025
 
 4)Descrição do modelo de rede neural:
-  Foi adotado a uma arquitetura de rede neural recorrente do tipo LSTM().
+  Foi adotado a uma arquitetura de rede neural recorrente do tipo LSTM(Long Short-Term Memory).
   Essa capcidade justifica a escolha do LSTM em aprender dependencia de longo prazo em sequencia temporais,
   superando ate a rede neural densa tradicionais no tratamento financeiro de dados.
 
@@ -51,3 +51,9 @@ Previsão de Séries Temporais Financeiras com Redes Neurais
   !pip tensorflow
 
 8) A avaliação do modelo
+   A avaliação do desempenho do modelo mostrou ativo mais estéveis do que esperado o exemplo: ITUB4, PETR4 tendem a mostrar o
+   erros menores.
+
+   A avalição do desempenho do modelo mostrou ativo voláteis tipo TSLA, AAPL mostram o erro maiores.
+   As previsões seguiram preço de padrões coerentes com os preços reais.
+  
