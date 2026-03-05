@@ -36,7 +36,7 @@ Previsão de Séries Temporais Financeiras com Redes Neurais
   mae(mean absolute error): Trata do erro média absoluto em termos monetários
   rmse (root mean squared error): Trata da raiz do erro do rmse quadratico medio, que penaliza erros maiores
 
-7) A intrução para execução:
+7 A intrução para execução:
 
   git clone https: //github.com
 
