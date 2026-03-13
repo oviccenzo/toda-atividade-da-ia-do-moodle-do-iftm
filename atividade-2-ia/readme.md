@@ -1,7 +1,10 @@
 O trabalho 2 foi sobre o dataset titanic predição de sobrevivencia
 
 Este projeto consiste em uma implementação do modelo machine learning para poder prever a sobrevivencia de passageiros de naufrágio do titanic usando o dataset fornecido na aula
-Incluiu o pré processamento treinamento do modelo e avaliação e organização do modelo de aprendizado de maquina para o conforme os requisitos da aula de 02 ia iftm ciência da computação
+Incluiu o pré processamento treinamento do modelo e avaliação e organização do modelo de aprendizado de maquina para 
+O dataset do titanic usa pra prever a chance de sobrevivencia dos passageiro se sobreviveu ou não da colisão da iceberg em 1912 durante a sua viagem inaugural em abril de 1912.Ou seja esse trabalho usa o modelo do dataset do titanic para poder prever a chance minima de sobrevivencia dos passageiro.
+
+o conforme os requisitos da aula de 02 ia iftm ciência da computação
 
 O dataset de titanic: (Pclass, Sex, Age, SibSp, Parch, Fare, Embarked etc).
 
