@@ -1,0 +1,26 @@
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python src-1/train.py
+Carregando dataset...
+Construindo preprocessor...
+Criando pipeline do modelo...
+Treinando...
+
+==== AVALIAÇÃO ====
+[[111  26]
+ [ 31  55]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.81      0.80       137
+           1       0.68      0.64      0.66        86
+
+    accuracy                           0.74       223
+   macro avg       0.73      0.72      0.73       223
+weighted avg       0.74      0.74      0.74       223
+
+ROC AUC: 0.816711933457817
+Cross-validation...
+CV Acc: 0.8092 ± 0.0303
+Salvando modelo...
+
+Modelo salvo em: /Users/rlresende/inteligencia-artificial/pythonProject/models/model_titanic.pkl
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject %
+
