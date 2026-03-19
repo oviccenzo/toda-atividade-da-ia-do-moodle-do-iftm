@@ -1,0 +1,310 @@
+Atividade 03
+
+
+Aberto: quinta-feira, 5 mar. 2026, 00:00
+Vencimento: quinta-feira, 12 mar. 2026, 23:55
+
+Aplicar, de forma prática, técnicas de Machine Learning e Explainable AI (XAI) para compreender como um modelo toma decisões tendo como referência o dataset do Titanic.
+
+Atividade Prática Avaliativa – Explainable AI com Dataset Titanic
+
+Disciplina: Inteligência Artificial
+Curso: Ciência da Computação
+Modalidade: Individual
+Entrega: Link do repositório no GitHub via Moodle
+Objetivo da Atividade
+
+O objetivo desta atividade é aplicar, de forma prática, técnicas de Machine Learning e Explainable AI (XAI) para compreender como um modelo toma decisões.
+
+Os alunos deverão realizar todo o fluxo de um projeto de aprendizado de máquina, incluindo:
+
+    preparação dos dados
+
+    treinamento e validação de um modelo
+
+    análise de importância das variáveis
+
+    interpretação das decisões do modelo usando SHAP
+
+O dataset utilizado será o Titanic, que será disponibilizado pelo professor.
+Descrição da Atividade
+
+Utilizando Python e bibliotecas de Machine Learning, desenvolva um projeto que realize as seguintes etapas:
+1. Coleta e carregamento dos dados
+
+Carregar o dataset do Titanic fornecido pelo professor e realizar uma inspeção inicial dos dados.
+
+Sugestões de análise inicial:
+
+    visualizar as primeiras linhas do dataset
+
+    verificar tipos de dados
+
+    identificar valores ausentes
+
+    observar a distribuição da variável alvo
+
+2. Preparação dos dados
+
+Realizar o pré-processamento necessário para utilização no modelo de Machine Learning.
+
+Essa etapa pode incluir:
+
+    tratamento de valores ausentes
+
+    transformação de variáveis categóricas
+
+    seleção de atributos relevantes
+
+    separação entre variáveis preditoras (X) e variável alvo Sim
+
+    divisão dos dados em treino e teste
+
+3. Treinamento do modelo
+
+Treinar um modelo de classificação utilizando:
+
+RandomForestClassifier (scikit-learn)
+
+A etapa deve incluir:
+
+    criação do modelo
+
+    treinamento com os dados de treino
+
+4. Validação do modelo
+
+Avaliar o desempenho do modelo utilizando o conjunto de teste.
+
+Apresente métricas de avaliação apropriadas para classificação, como por exemplo:
+
+    accuracy
+
+    matriz de confusão
+
+    precision, recall ou F1-score
+
+5. Análise de Feature Importance
+
+Utilizar o próprio modelo treinado para identificar a importância das variáveis.
+
+Apresente um gráfico de importância das variáveis e faça uma breve análise:
+
+    Quais variáveis mais influenciam o modelo?
+
+    Quais possuem menor impacto?
+
+6. Explainable AI com SHAP
+
+Aplicar a biblioteca SHAP para interpretar o comportamento do modelo.
+
+Gerar e analisar:
+
+    SHAP Summary Plot
+
+Explique brevemente:
+
+    quais variáveis mais impactam as previsões
+
+    se valores altos ou baixos dessas variáveis aumentam ou diminuem a probabilidade de sobrevivência
+
+7. Explicação de uma previsão individual
+
+Selecione um passageiro do dataset e utilize SHAP para explicar a previsão do modelo.
+
+Apresente a visualização correspondente e interprete:
+
+    quais fatores contribuíram positivamente para a previsão
+
+    quais fatores reduziram a probabilidade prevista
+
+Entrega
+
+A entrega deve ser feita através do link do repositório no GitHub contendo:
+
+    código em Python
+
+    notebook ou script contendo todas as etapas da atividade
+
+Observações importantes:
+
+    A atividade é individual.
+
+    Não é necessário criar README.
+
+    O repositório deve conter todo o código utilizado para execução da atividade.
+
+    O link do repositório deve ser enviado no Moodle dentro do prazo estabelecido.
+
+Critérios de Avaliação
+
+A atividade será avaliada considerando:
+
+    correta preparação dos dados
+
+    treinamento e validação do modelo
+
+    geração dos gráficos de feature importance
+
+    aplicação correta do SHAP
+
+    interpretação das explicações do modelo
+
+    organização e funcionamento do código
+
+
+
+Aberto: quinta-feira, 5 mar. 2026, 00:00
+Vencimento: quinta-feira, 12 mar. 2026, 23:55
+
+Aplicar, de forma prática, técnicas de Machine Learning e Explainable AI (XAI) para compreender como um modelo toma decisões tendo como referência o dataset do Titanic.
+
+Atividade Prática Avaliativa – Explainable AI com Dataset Titanic
+
+Disciplina: Inteligência Artificial
+Curso: Ciência da Computação
+Modalidade: Individual
+Entrega: Link do repositório no GitHub via Moodle
+Objetivo da Atividade
+
+O objetivo desta atividade é aplicar, de forma prática, técnicas de Machine Learning e Explainable AI (XAI) para compreender como um modelo toma decisões.
+
+Os alunos deverão realizar todo o fluxo de um projeto de aprendizado de máquina, incluindo:
+
+    preparação dos dados
+
+    treinamento e validação de um modelo
+
+    análise de importância das variáveis
+
+    interpretação das decisões do modelo usando SHAP
+
+O dataset utilizado será o Titanic, que será disponibilizado pelo professor.
+Descrição da Atividade
+
+Utilizando Python e bibliotecas de Machine Learning, desenvolva um projeto que realize as seguintes etapas:
+1. Coleta e carregamento dos dados
+
+Carregar o dataset do Titanic fornecido pelo professor e realizar uma inspeção inicial dos dados.
+
+Sugestões de análise inicial:
+
+    visualizar as primeiras linhas do dataset
+
+    verificar tipos de dados
+
+    identificar valores ausentes
+
+    observar a distribuição da variável alvo
+
+2. Preparação dos dados
+
+Realizar o pré-processamento necessário para utilização no modelo de Machine Learning.
+
+Essa etapa pode incluir:
+
+    tratamento de valores ausentes
+
+    transformação de variáveis categóricas
+
+    seleção de atributos relevantes
+
+    separação entre variáveis preditoras (X) e variável alvo Sim
+
+    divisão dos dados em treino e teste
+
+3. Treinamento do modelo
+
+Treinar um modelo de classificação utilizando:
+
+RandomForestClassifier (scikit-learn)
+
+A etapa deve incluir:
+
+    criação do modelo
+
+    treinamento com os dados de treino
+
+4. Validação do modelo
+
+Avaliar o desempenho do modelo utilizando o conjunto de teste.
+
+Apresente métricas de avaliação apropriadas para classificação, como por exemplo:
+
+    accuracy
+
+    matriz de confusão
+
+    precision, recall ou F1-score
+
+5. Análise de Feature Importance
+
+Utilizar o próprio modelo treinado para identificar a importância das variáveis.
+
+Apresente um gráfico de importância das variáveis e faça uma breve análise:
+
+    Quais variáveis mais influenciam o modelo?
+
+    Quais possuem menor impacto?
+
+6. Explainable AI com SHAP
+
+Aplicar a biblioteca SHAP para interpretar o comportamento do modelo.
+
+Gerar e analisar:
+
+    SHAP Summary Plot
+
+Explique brevemente:
+
+    quais variáveis mais impactam as previsões
+
+    se valores altos ou baixos dessas variáveis aumentam ou diminuem a probabilidade de sobrevivência
+
+7. Explicação de uma previsão individual
+
+Selecione um passageiro do dataset e utilize SHAP para explicar a previsão do modelo.
+
+Apresente a visualização correspondente e interprete:
+
+    quais fatores contribuíram positivamente para a previsão
+
+    quais fatores reduziram a probabilidade prevista
+
+Entrega
+
+A entrega deve ser feita através do link do repositório no GitHub contendo:
+
+    código em Python
+
+    notebook ou script contendo todas as etapas da atividade
+
+Observações importantes:
+
+    A atividade é individual.
+
+    Não é necessário criar README.
+
+    O repositório deve conter todo o código utilizado para execução da atividade.
+
+    O link do repositório deve ser enviado no Moodle dentro do prazo estabelecido.
+
+Critérios de Avaliação
+
+A atividade será avaliada considerando:
+
+    correta preparação dos dados
+
+    treinamento e validação do modelo
+
+    geração dos gráficos de feature importance
+
+    aplicação correta do SHAP
+
+    interpretação das explicações do modelo
+
+    organização e funcionamento do código
+
+https://ava.iftm.edu.br/pluginfile.php/185985/mod_assign/introattachment/0/titanic.csv?forcedownload=1
+
+
