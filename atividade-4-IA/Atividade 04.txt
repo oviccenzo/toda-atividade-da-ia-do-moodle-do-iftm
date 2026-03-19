@@ -1,0 +1,91 @@
+Atividade 04
+
+Aberto: quinta-feira, 12 mar. 2026, 00:00
+Vencimento: quinta-feira, 19 mar. 2026, 23:55
+
+Nesta atividade, você atuará como analista de dados responsável por identificar perfis de acesso potencialmente anômalos em um sistema, utilizando técnicas de Inteligência Artificial. Você deverá aplicar técnicas de detecção de anomalias para identificar acessos fora do padrão em logs de sistemas, utilizando o algoritmo Isolation Forest, e interpretar criticamente os resultados obtidos.
+
+Sistemas computacionais modernos registram continuamente logs de acesso de usuários, contendo informações como horário de acesso, duração da sessão, tentativas de login e comportamento de navegação. Esses registros são fundamentais para monitoramento de segurança, detecção de comportamentos suspeitos e prevenção de incidentes, como acessos indevidos ou ataques de força bruta.
+
+Nem todo comportamento fora do padrão representa um ataque real. Em muitos casos, trata-se apenas de um uso atípico, mas legítimo. Por esse motivo, técnicas de detecção de anomalias, especialmente baseadas em aprendizado não supervisionado, são amplamente utilizadas como ferramentas de apoio à tomada de decisão.
+
+Nesta atividade, você atuará como analista de dados responsável por identificar perfis de acesso potencialmente anômalos em um sistema, utilizando técnicas de Inteligência Artificial.
+Objetivo da Atividade
+
+Aplicar técnicas de detecção de anomalias para identificar acessos fora do padrão em logs de sistemas, utilizando o algoritmo Isolation Forest, e interpretar criticamente os resultados obtidos.
+Dataset
+
+Você deverá utilizar o arquivo acessos_sistema.csv, que contém 100 registros de logs de acesso, com as seguintes variáveis:
+
+    hora_acesso – hora do acesso ao sistema (0 a 23)
+
+    duracao_sessao_min – duração da sessão em minutos
+
+    numero_tentativas_login – quantidade de tentativas de login
+
+    ip_diferente_habitual – indica se o IP é diferente do habitual (0 = não, 1 = sim)
+
+    quantidade_paginas_acessadas – número de páginas acessadas na sessão
+
+O dataset não possui rótulos, pois o objetivo é identificar anomalias de forma não supervisionada.
+Atividades a serem desenvolvidas
+
+Você deverá:
+
+    Carregar e explorar o dataset, analisando suas variáveis
+
+    Realizar o pré-processamento necessário para aplicação do modelo
+
+    Treinar um modelo de Isolation Forest
+
+    Identificar quais registros foram classificados como anômalos
+
+    Analisar as características dos acessos considerados fora do padrão
+
+    Produzir visualizações que auxiliem na interpretação dos resultados
+
+    Discutir se os acessos identificados como anomalia fazem sentido no contexto do problema
+
+Questões para reflexão (devem ser respondidas no relatório)
+
+    Quais padrões de acesso foram considerados normais pelo modelo?
+
+    Quais características aparecem com maior frequência nos acessos classificados como anômalos?
+
+    Todas as anomalias identificadas representam um possível problema de segurança? Justifique.
+
+    Que tipos de falso positivo podem ocorrer nesse cenário?
+
+    Como esse tipo de modelo poderia ser usado em um sistema real de monitoramento?
+
+Entregáveis
+
+O aluno deverá entregar:
+
+    Um repositório no GitHub contendo:
+
+        o código-fonte da solução
+
+        o dataset utilizado
+
+        gráficos e análises geradas
+
+    Um relatório (em arquivo ou markdown) contendo:
+
+        descrição da abordagem adotada
+
+        interpretação dos resultados
+
+        respostas às questões propostas
+
+Critérios de Avaliação
+
+    Correta aplicação do algoritmo de detecção de anomalias
+
+    Clareza e organização do código
+
+    Qualidade das análises e interpretações
+
+    Capacidade crítica ao discutir os resultados
+
+    Coerência entre os achados do modelo e o contexto do problema
