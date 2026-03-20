@@ -1,5 +1,6 @@
 para executar o diretorio src-1 train.py
 
+ python3.8 -m venv venv  
 source venv/bin/activate
 python src/preprocesso.py
 python src-1/train.py
