@@ -1,0 +1,169 @@
+# 🚢 Projeto de Inteligência Artificial – Dataset Titanic
+
+## 📚 Disciplina
+
+Inteligência Artificial – Ciência da Computação (IFTM)
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo aplicar técnicas de **Machine Learning** e **Explainable AI (XAI)** para compreender como um modelo toma decisões utilizando o dataset do Titanic.
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+* Python 3.8
+* pandas
+* scikit-learn
+* matplotlib
+* seaborn
+* shap
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+atividade-3-da-ia/
+│
+├── titanic.csv
+├── X.csv
+├── y.csv
+│
+├── src_0_carregando/
+│   └── carregar_dados.py
+│
+├── src_1_processando/
+│   └── pre_processamento.py
+│
+├── src_2_treinando_o_modelo/
+│   └── treinando-o-modelo.py
+│
+├── src_3_avaliacao/
+│   └── avaliacao.py
+│
+├── src_4_feature_importacao/
+│   └── feature_importance.py
+│
+├── src_5_shap_gera_grafico/
+│   └── shap_summary.py
+│
+├── src_6_shap_individual/
+│   └── shap_individual.py
+│
+└── venv/
+```
+
+---
+
+## 🚀 Etapas do Projeto
+
+### 1️⃣ Carregamento dos Dados
+
+* Leitura do dataset Titanic
+* Visualização inicial
+* Identificação de valores nulos
+
+📌 Executar:
+
+```
+python src_0_carregando/carregar_dados.py
+```
+
+---
+
+### 2️⃣ Pré-processamento
+
+* Tratamento de valores ausentes
+* Codificação de variáveis categóricas
+* Separação em X e y
+
+📌 Executar:
+
+```
+python src_1_processando/pre_processamento.py
+```
+
+---
+
+### 3️⃣ Treinamento do Modelo
+
+* Divisão treino/teste
+* Treinamento com RandomForest
+
+📌 Executar:
+
+```
+python src_2_treinando_o_modelo/treinando-o-modelo.py
+```
+
+---
+
+### 4️⃣ Avaliação do Modelo
+
+* Accuracy
+* Matriz de confusão
+* Classification report
+
+📌 Executar:
+
+```
+python src_3_avaliacao/avaliacao.py
+```
+
+---
+
+### 5️⃣ Feature Importance
+
+* Identificação das variáveis mais importantes
+
+📌 Executar:
+
+```
+python src_4_feature_importacao/feature_importance.py
+```
+
+---
+
+### 6️⃣ Explainable AI (SHAP)
+
+* SHAP Summary Plot
+* Interpretação global do modelo
+
+📌 Executar:
+
+```
+python src_5_shap_gera_grafico/shap_summary.py
+```
+
+---
+
+### 7️⃣ Explicação Individual
+
+* Explicação de uma previsão específica
+
+📌 Executar:
+
+```
+python src_6_shap_individual/shap_individual.py
+```
+
+---
+
+## 📊 Resultados Esperados
+
+* Modelo treinado com boa acurácia
+* Identificação das variáveis mais relevantes
+* Explicação das decisões do modelo com SHAP
+
+---
+
+## 🧠 Conclusão
+
+O projeto demonstra como técnicas de Machine Learning combinadas com Explainable AI permitem não apenas prever resultados, mas também entender **como e por que** o modelo toma determinadas decisões.
+
+---
+
+## 👨‍💻 Autor
+
+Viccenzo de Oliveira Nunes Resende
