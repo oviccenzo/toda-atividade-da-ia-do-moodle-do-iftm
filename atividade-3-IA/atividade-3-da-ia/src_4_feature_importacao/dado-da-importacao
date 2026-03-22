@@ -1,0 +1,8 @@
+  Feature  Importance
+4    Fare    0.438370
+1     Age    0.364586
+0  Pclass    0.085423
+2   SibSp    0.060046
+3   Parch    0.051575
+(venv) rlresende@MacBook-Pro-de-Robert atividade-3-da-ia %
+Figure_1.png

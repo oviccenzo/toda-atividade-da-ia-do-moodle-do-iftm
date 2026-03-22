@@ -1,0 +1,21 @@
+(venv) rlresende@MacBook-Pro-de-Robert atividade-3-da-ia % python3.8 src_3_avaliacao/avaliacao.py
+
+Acuracia: 0.6500
+
+O relatorio da classifcacao da avaliacao do modelo da acuracia:
+/Users/rlresende/atividade-3-da-ia/venv/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/rlresende/atividade-3-da-ia/venv/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/rlresende/atividade-3-da-ia/venv/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       0.65      1.00      0.79        13
+           1       0.00      0.00      0.00         7
+
+    accuracy                           0.65        20
+   macro avg       0.33      0.50      0.39        20
+weighted avg       0.42      0.65      0.51        20
+
+(venv) rlresende@MacBook-Pro-de-Robert atividade-3-da-ia %

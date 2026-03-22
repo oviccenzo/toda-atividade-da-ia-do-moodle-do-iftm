@@ -1,0 +1,11 @@
+python3.8 -m venv venv
+source venv/bin/activate
+python3.8 src_6_mostrar_shap_individual/o_grafico_individual.py
+
+comando para rodar no terminal é:
+python3.8 src_6_mostrar_shap_individual/o_grafico_individual.py
+
+instalacao: pip install scikit-learn matplotlib seaborn
+
+descobrir a pasta do arquivo:
+find . -name "importance.py"
