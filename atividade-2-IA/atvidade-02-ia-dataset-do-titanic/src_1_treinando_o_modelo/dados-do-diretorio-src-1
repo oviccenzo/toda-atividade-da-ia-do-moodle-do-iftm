@@ -1,0 +1,9 @@
+são o arquivo e codigo do unico diretorio:
+python src_1_treinando_o_modelo/train.py > resultado_treino.txt
+python src_1_treinando_o_modelo/train.py | tee resultado_treino.txt
+
+para ativar o venv:
+.\.venv\Scripts\Activate.ps1
+
+para desativar o venv:
+deactivate

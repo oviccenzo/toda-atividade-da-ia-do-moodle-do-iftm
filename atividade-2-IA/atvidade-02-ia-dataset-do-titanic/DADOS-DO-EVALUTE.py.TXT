@@ -1,0 +1,19 @@
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python3 src-2/evalute.py
+Carregando modelo...
+Gerando predicoes...
+
+=== MATRIZ DE CONFUSAO ===
+[[518  31]
+ [ 41 301]]
+
+=== RELATORIO ===
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.94       549
+           1       0.91      0.88      0.89       342
+
+    accuracy                           0.92       891
+   macro avg       0.92      0.91      0.91       891
+weighted avg       0.92      0.92      0.92       891
+
+ROC AUC: 0.9653916211293261

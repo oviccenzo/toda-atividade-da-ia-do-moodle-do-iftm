@@ -1,0 +1,19 @@
+(.venv) PS C:\Users\10780099613\OneDrive - IFTM\inteligencia-artificial\atividade-pratica-da-ia\atividade-2-IA> python "atvidade-02-ia-dataset-do-titanic\src_2_avaliando\evalute.py"
+Carregando modelo...
+Gerando predicoes...
+
+=== MATRIZ DE CONFUSAO ===
+[[533  16]
+ [ 28 314]]
+
+=== RELATORIO ===
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       549
+           1       0.95      0.92      0.93       342
+
+    accuracy                           0.95       891
+   macro avg       0.95      0.94      0.95       891
+weighted avg       0.95      0.95      0.95       891
+
+ROC AUC: 0.9735883424408014

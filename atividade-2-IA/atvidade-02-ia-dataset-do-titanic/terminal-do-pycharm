@@ -1,0 +1,73 @@
+rlresende@MacBook-Pro-de-Robert pythonProject % python src/preprossesso.py
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'src/preprossesso.py': [Errno 2] No such file or directory
+rlresende@MacBook-Pro-de-Robert pythonProject % cd ~/ia
+cd: no such file or directory: /Users/rlresende/ia
+rlresende@MacBook-Pro-de-Robert pythonProject % cd ~/inteligencia-artificial
+rlresende@MacBook-Pro-de-Robert inteligencia-artificial % ls src/
+ls: src/: No such file or directory
+rlresende@MacBook-Pro-de-Robert inteligencia-artificial % ls
+codigo-da-aula                          pythonProject                           pythonProjectParaInteligenciaArtificial
+rlresende@MacBook-Pro-de-Robert inteligencia-artificial % python3 src/preprocesso.py
+/usr/local/bin/python3: can't open file 'src/preprocesso.py': [Errno 2] No such file or directory
+rlresende@MacBook-Pro-de-Robert inteligencia-artificial % cd pythonProject
+rlresende@MacBook-Pro-de-Robert pythonProject % ls
+src     src-1   src-2   venv
+rlresende@MacBook-Pro-de-Robert pythonProject % python3 src/preprocesso.py
+zsh: segmentation fault  python3 src/preprocesso.py
+rlresende@MacBook-Pro-de-Robert pythonProject % ls
+src     src-1   src-2   venv
+rlresende@MacBook-Pro-de-Robert pythonProject % src
+zsh: command not found: src
+rlresende@MacBook-Pro-de-Robert pythonProject % source venv/bin/activate
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python src/preprocesso.py
+Traceback (most recent call last):
+  File "src/preprocesso.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % pip install pandas scikit-learn
+Traceback (most recent call last):
+  File "/Users/rlresende/inteligencia-artificial/pythonProject/venv/bin/pip", line 6, in <module>
+    from pip._internal.cli.main import main
+ModuleNotFoundError: No module named 'pip'
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % rmv -rf venv
+zsh: command not found: rmv
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % deactivate
+rlresende@MacBook-Pro-de-Robert pythonProject % rm -rf venv
+rlresende@MacBook-Pro-de-Robert pythonProject % python3 -m venv venv
+rlresende@MacBook-Pro-de-Robert pythonProject % source venv/bin/activate
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % pip install pandas scikit-learn
+Collecting pandas
+  Using cached https://files.pythonhosted.org/packages/78/a8/07dd10f90ca915ed914853cd57f79bfc22e1ef4384ab56cb4336d2fc1f2a/pandas-2.0.3-cp38-cp38-macosx_10_9_x86_64.whl
+Collecting scikit-learn
+  Using cached https://files.pythonhosted.org/packages/e3/52/fd60b0b022af41fbf3463587ddc719288f0f2d4e46603ab3184996cd5f04/scikit_learn-1.3.2-cp38-cp38-macosx_10_9_x86_64.whl
+Collecting numpy>=1.20.3; python_version < "3.10" (from pandas)
+  Using cached https://files.pythonhosted.org/packages/11/10/943cfb579f1a02909ff96464c69893b1d25be3731b5d3652c2e0cf1281ea/numpy-1.24.4-cp38-cp38-macosx_10_9_x86_64.whl
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+Collecting tzdata>=2022.1 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/c7/b0/003792df09decd6849a5e39c28b513c06e84436a54440380862b5aeff25d/tzdata-2025.3-py2.py3-none-any.whl
+Collecting pytz>=2020.1 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/10/99/781fe0c827be2742bcc775efefccb3b048a3a9c6ce9aec0cbf4a101677e5/pytz-2026.1.post1-py2.py3-none-any.whl
+Collecting joblib>=1.1.1 (from scikit-learn)
+  Using cached https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl
+Collecting scipy>=1.5.0 (from scikit-learn)
+  Using cached https://files.pythonhosted.org/packages/a0/e3/37508a11dae501349d7c16e4dd18c706a023629eedc650ee094593887a89/scipy-1.10.1-cp38-cp38-macosx_10_9_x86_64.whl
+Collecting threadpoolctl>=2.0.0 (from scikit-learn)
+  Using cached https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl
+Installing collected packages: numpy, six, python-dateutil, tzdata, pytz, pandas, joblib, scipy, threadpoolctl, scikit-learn
+Successfully installed joblib-1.4.2 numpy-1.24.4 pandas-2.0.3 python-dateutil-2.9.0.post0 pytz-2026.1.post1 scikit-learn-1.3.2 scipy-1.10.1 six-1.17.0 threadpoolctl-3.5.0 tzdata-2025.3
+WARNING: You are using pip version 19.2.3, however version 25.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python src/preprocesso.py
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python src-1/train.py
+Traceback (most recent call last):
+  File "src-1/train.py", line 16, in <module>
+    from preprocess import build_preprocessor
+ModuleNotFoundError: No module named 'preprocess'
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject %
+
+
+
+

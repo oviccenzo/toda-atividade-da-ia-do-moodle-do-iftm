@@ -1,0 +1,20 @@
+para ativar o ambiente em qualquer computador seja no lunix window 10 ou no unix mac os catalina x:
+.\.venv\Scripts\Activate.ps1
+
+para desativar:
+deactivate
+
+tem que estar dentro da pasta src_2_avaliando:
+python "atvidade-02-ia-dataset-do-titanic\src_2_avaliando\evalute.py"
+
+instalação da biblioteca:
+pip install scikit-learn pandas joblib
+
+para listar os arquivos:
+(Get-ChildItem -Recurse -Filter *.py).FullName
+
+limpar:
+cls
+
+para ver qual pasta esta:
+pwd
