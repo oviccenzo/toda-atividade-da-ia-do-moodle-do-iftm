@@ -3,4 +3,4 @@ source venv/bin/activate
 python src_0_carregando/carregar_dados.py
 
 comando para rodar no terminal é:
-python src_0_carregar_dados.py
+python src_0_carregando/carregar_dados.py
