@@ -1,0 +1,6 @@
+python3.8 -m venv venv
+source venv/bin/activate
+python3.8 src_0_processando/exploração_dados.py
+
+comando para rodar no terminal é:
+python src_0_processando/exploração_dados.py 
