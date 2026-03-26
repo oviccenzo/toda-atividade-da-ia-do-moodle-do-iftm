@@ -1,0 +1,77 @@
+Atividade 05
+
+
+Aberto: quinta-feira, 19 mar. 2026, 00:00
+Vencimento: quinta-feira, 26 mar. 2026, 23:55
+
+Você foi contratado como analista de dados por um supermercado de médio porte que deseja entender melhor o comportamento de compra de seus clientes. O objetivo da empresa é aumentar o ticket médio, melhorar o layout das gôndolas e planejar promoções combinadas com base em padrões reais de compra.
+
+Você foi contratado como analista de dados por um supermercado de médio porte que deseja entender melhor o comportamento de compra de seus clientes. O objetivo da empresa é aumentar o ticket médio, melhorar o layout das gôndolas e planejar promoções combinadas com base em padrões reais de compra.
+
+O supermercado disponibilizou um histórico de compras já organizado no formato de cestas (market basket), onde cada linha representa uma transação e cada coluna indica se um determinado produto foi comprado ou não.
+
+Sua missão é utilizar técnicas de Market Basket Analysis para identificar associações relevantes entre produtos e transformar essas associações em insights práticos para a tomada de decisão gerencial.
+Dataset
+
+Você deverá utilizar o arquivo basket_supermercado_1000.csv, contendo as seguintes colunas: transacao, pao, leite, cafe, manteiga, acucar, arroz, feijao, macarrao, carne, frango, peixe, ovos, queijo, presunto, cerveja, refrigerante, vinho, hortifruti, doces, limpeza.
+
+Cada coluna de produto assume valores binários (0 ou 1), indicando ausência ou presença do item na transação.
+Objetivo da Atividade
+
+Aplicar o algoritmo Apriori para extrair regras de associação a partir do dataset e interpretar essas regras do ponto de vista do negócio, simulando um relatório técnico para a gerência do supermercado.
+Atividades a serem desenvolvidas
+
+Você deverá:
+
+    Carregar e explorar o dataset de compras
+
+    Aplicar o algoritmo Apriori para identificar conjuntos frequentes de produtos
+
+    Gerar regras de associação a partir dos conjuntos frequentes
+
+    Analisar métricas como suporte, confiança e lift
+
+    Selecionar as regras mais relevantes para o contexto do supermercado
+
+    Interpretar os resultados em linguagem acessível ao gestor
+
+    Propor ações práticas baseadas nas regras encontradas
+
+Questões orientadoras (devem ser respondidas no relatório)
+
+    Quais produtos apresentam maior associação entre si?
+
+    Existem produtos que funcionam como “âncora” para outras compras?
+
+    Quais regras possuem maior potencial para ações promocionais?
+
+    Alguma regra encontrada pode ser considerada enganosa ou pouco útil? Por quê?
+
+    Como os resultados podem impactar o layout do supermercado ou estratégias de venda?
+
+Entregáveis
+
+O aluno deverá entregar:
+
+    Link de um repositório no GitHub contendo:
+
+        código-fonte da solução
+
+        dataset utilizado
+
+        visualizações e análises produzidas
+
+    Um relatório (README ou arquivo separado) descrevendo:
+
+        a abordagem adotada
+
+        os principais resultados
+
+        as interpretações de negócio
+
+
+	
+basket_supermercado_1000.csv basket_supermercado_1000.csv
+19 março 2026, 12:00 PM
+
+https://github.com/oviccenzo/toda-atividade-da-ia-do-moodle-do-iftm.git
