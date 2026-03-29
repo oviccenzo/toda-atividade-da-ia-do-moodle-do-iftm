@@ -1,0 +1,153 @@
+Atividade 01
+
+
+Aberto: quinta-feira, 26 fev. 2026, 00:00
+Vencimento: quinta-feira, 5 mar. 2026, 23:55
+
+Análise de séries temporais usando redes neurais
+
+Atividade Avaliativa – Previsão de Séries Temporais Financeiras com Redes Neurais
+Disciplina: Inteligência Artificial
+Curso: Ciência da Computação
+Modalidade: Individual
+Data de entrega: 05/03/2026
+1. Objetivo da Atividade
+
+O objetivo desta atividade é desenvolver um projeto completo de previsão de séries temporais financeiras, utilizando redes neurais, com dados reais obtidos por meio da API do Yahoo Finance (yfinance).
+
+A atividade visa consolidar os seguintes conhecimentos:
+
+    Manipulação e análise de séries temporais
+
+    Preparação de dados sequenciais para redes neurais
+
+    Construção e treinamento de modelos neurais para previsão temporal
+
+    Avaliação de modelos de séries temporais
+
+    Organização de projetos de IA
+
+    Versionamento e documentação com GitHub
+
+2. Descrição da Atividade
+
+Cada aluno deverá desenvolver um projeto de previsão de séries temporais envolvendo no mínimo 5 ações diferentes, escolhidas livremente no mercado financeiro.
+
+O projeto deve contemplar:
+
+    Coleta automática dos dados históricos das ações usando a biblioteca yfinance
+
+    Análise exploratória básica das séries temporais
+
+    Preparação dos dados para modelos de redes neurais
+
+    Definição de uma janela temporal (lookback)
+
+    Treinamento de um modelo de rede neural para previsão
+
+    Avaliação do desempenho do modelo
+
+    Geração de previsões futuras para cada ação
+
+    Organização do projeto de forma clara e reprodutível
+
+3. Requisitos Técnicos Mínimos
+
+O projeto deve atender obrigatoriamente aos seguintes requisitos:
+
+    Linguagem: Python
+
+    Fonte dos dados: Yahoo Finance (via biblioteca yfinance)
+
+    Uso de redes neurais para previsão
+
+    Previsão de no mínimo 5 ações diferentes
+
+    Separação temporal adequada entre treino e teste
+
+    Avaliação do modelo com métricas apropriadas
+
+    Repositório público no GitHub
+
+4. Estrutura Esperada do Projeto
+
+O repositório deve conter, no mínimo:
+
+    Código de coleta dos dados via yfinance
+
+    Código de pré-processamento das séries temporais
+
+    Código de construção e treinamento do modelo neural
+
+    Código de avaliação do modelo
+
+    Código de geração das previsões
+
+    Arquivo README.md explicativo
+
+5. README.md (Obrigatório)
+
+O arquivo README.md deve conter:
+
+    Objetivo do projeto
+
+    Lista das ações selecionadas
+
+    Período histórico utilizado
+
+    Descrição do modelo de rede neural adotado
+
+    Estratégia de preparação dos dados (janela temporal)
+
+    Métricas utilizadas para avaliação
+
+    Principais resultados obtidos
+
+    Instruções para execução do projeto
+
+6. Critérios de Avaliação
+
+A avaliação será realizada com base nos seguintes critérios:
+
+    Correta caracterização do problema de séries temporais
+
+    Uso adequado dos dados financeiros
+
+    Preparação correta das sequências temporais
+
+    Escolha e implementação do modelo neural
+
+    Avaliação coerente do desempenho
+
+    Clareza e organização do código
+
+    Qualidade da documentação no README.md
+
+7. Forma de Entrega
+
+    Atividade individual
+
+    Entregar apenas o link do repositório no GitHub pelo AVA
+
+    O repositório deve estar público
+
+    Repositórios inacessíveis não serão avaliados
+
+8. Observações Importantes
+
+    O uso da biblioteca yfinance é obrigatório
+
+    As ações podem ser nacionais ou internacionais
+
+    Não é permitido reutilizar projetos de colegas
+
+    Casos de plágio resultarão em nota zero
+
+9. Data Limite
+
+05 de março de 2026
+
+Aberto: quinta-feira, 26 fev. 2026, 00:00
+Vencimento: quinta-feira, 5 mar. 2026, 23:55
+
+Análise de séries temporais usando redes neurais
