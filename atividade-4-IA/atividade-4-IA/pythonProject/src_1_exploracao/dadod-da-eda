@@ -1,0 +1,13 @@
+(venv) rlresende@MacBook-Pro-de-Robert pythonProject % python3.8 src_1_exploracao/eda.py
+Resumo da estatistica:
+       hora_acesso  duracao_sessao_min  numero_tentativas_login  ip_diferente_habitual  quantidade_paginas_acessadas
+count    80.000000           80.000000                80.000000              80.000000                      80.00000
+mean     10.350000           58.037500                 3.187500               0.500000                      23.05000
+std       7.549164           76.105929                 3.284385               0.503155                      31.66354
+min       0.000000            1.000000                 1.000000               0.000000                       1.00000
+25%       2.000000            4.000000                 1.000000               0.000000                       2.00000
+50%      11.000000           35.500000                 1.000000               0.500000                      13.00000
+75%      15.000000           52.000000                 6.000000               1.000000                      18.00000
+max      23.000000          300.000000                10.000000               1.000000                     120.00000
+Colunas estatistica:
+['hora_acesso', 'duracao_sessao_min', 'numero_tentativas_login', 'ip_diferente_habitual', 'quantidade_paginas_acessadas']

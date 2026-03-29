@@ -1,0 +1,7 @@
+✅ Coluna de anomalia gerada! Verifique 'resultado_final.csv'.
+
+Contagem de resultados:
+resultado
+Normal      68
+Anomalia    12
+Name: count, dtype: int64

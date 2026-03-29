@@ -1,0 +1,12 @@
+mac os catalina (unix):
+python3.8 -m venv venv
+source venv/bin/activate
+python3.8 src_4_identificacao/analise_anomalia.py
+
+window 10 (linux):
+python3.8 -m venv venv
+source venv/Scripts/activate
+python3.8 src_4_identificacao/analise_anomalia.py
+
+tem que instalar a biblioteca para poder funcionar:
+pip install scikit-learn
