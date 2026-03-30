@@ -1,0 +1,27 @@
+# 🛡️ Detecção de Anomalias em Logs de Sistema
+
+Este projeto utiliza técnicas de Inteligência Artificial não supervisionada (**Isolation Forest**) para identificar acessos potencialmente anômalos em logs de sistemas computacionais. O objetivo é diferenciar comportamentos normais de possíveis ataques de força bruta ou usos atípicos.
+
+## 📂 Estrutura do Projeto
+
+O projeto foi dividido em módulos para garantir a organização e escalabilidade do pipeline de dados:
+
+*   **`src_0_carga/`**: Responsável pela leitura do dataset bruto `acessos_sistema.csv`.
+*   **`src_1_exploracao/`**: Realiza a análise estatística inicial (EDA) para entender as distribuições das variáveis.
+*   **`src_2_preprocessamento/`**: Normalização dos dados utilizando `StandardScaler` para garantir que todas as variáveis tenham o mesmo peso no modelo.
+*   **`src_3_modelagem/`**: Configuração e treinamento do algoritmo **Isolation Forest**.
+*   **`src_4_identificacao/`**: Aplicação do modelo treinado para rotular os dados entre "Normal" e "Anomalia".
+*   **`src_5_visualizacao/`**: Geração de gráficos de dispersão para interpretação visual dos resultados.
+
+## 🚀 Como Executar
+
+### 1. Pré-requisitos
+Certifique-se de ter o Python 3.8+ instalado e as bibliotecas necessárias:
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+
+1 - Padrões Normais: Usuários acessando em horário comercial com IP habitual.
+2 - Características de Anomalia: Sessões de longa duração, logins fora de hora e IP desconhecido.
+3 - Segurança: Nem toda anomalia é um ataque; algumas podem ser manutenções legítimas em horários alternativos.
+4 - Falsos Positivos: Erros de senha por usuários legítimos ou administradores em plantão.
+5 - Uso Real: Implementação em firewalls inteligentes ou sistemas de alerta em tempo real (SIEM).
