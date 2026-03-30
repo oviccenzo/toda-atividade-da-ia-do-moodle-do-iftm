@@ -20,6 +20,25 @@ Certifique-se de ter o Python 3.8+ instalado e as bibliotecas necessárias:
 ```bash
 pip install pandas scikit-learn matplotlib seaborn
 
+para executar via por script principal:
+
+O projeto possui um orquestrador que executa em todas as etapas por etapas em sequencia:
+
+python main.py
+
+Analises de resultados:
+apos eu ter executado em todo o diretorio src_0 até src_5 o modelo identificou algum padrão fora do normal do sistema:
+Acessos normais: Os dados está centrados em horarios comerciais em 9h - 16h com baixo números de tentativas do login
+
+Anomalia detectados:Os dados dos acessos do sistema mostrou que o horarios de madrugados com alta taxa de números de
+páginas acessados ou multiplicado durante a tentativa de logar no sistema em login malsucedidas.
+
+
+### 1. Pré-requisitos
+Certifique-se de ter o Python 3.8+ instalado e as bibliotecas necessárias:
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+
 1 - Padrões Normais: Usuários acessando em horário comercial com IP habitual.
 2 - Características de Anomalia: Sessões de longa duração, logins fora de hora e IP desconhecido.
 3 - Segurança: Nem toda anomalia é um ataque; algumas podem ser manutenções legítimas em horários alternativos.
