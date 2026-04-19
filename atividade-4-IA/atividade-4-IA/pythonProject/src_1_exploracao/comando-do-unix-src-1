@@ -1,5 +1,6 @@
 python3.8 -m venv venv
-
 source venv/bin/activate
+pythone3.8 src_1_exploracao/carregar_dados.py
 
-python3.8 src_1_exploracao/eda.py
+comando para rodar no terminal é:
+python3.8 src_1_exploracao/carregar_dados.py
