@@ -1,0 +1,9 @@
+unix mac os calina:
+python3.8 -m venv venv
+source venv/bin/activate
+python3.8 src_5_interpretacao_dos_negocios_do_supermercado/dados_interpretacao_da_cesta_do_supermecado.py
+
+lunix para window:
+python3.8 -m venv venv
+source venv/Scripts/activate
+python3.8 src_5_interpretacao_dos_negocios_do_supermercado/dados_interpretacao_da_cesta_do_supermecado.py

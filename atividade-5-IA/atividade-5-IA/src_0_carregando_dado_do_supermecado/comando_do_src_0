@@ -1,0 +1,11 @@
+unix mac os calina:
+python3.8 -m venv venv
+source venv/bin/activate
+
+python3.8 src_0_carregando_dado_do_supermecado/carregamento_e_eda.py
+
+lunix para window:
+python3.8 -m venv venv
+source venv/Scripts/activate
+
+python3.8 src_0_carregando_dado_do_supermecado/carregamento_e_eda.py

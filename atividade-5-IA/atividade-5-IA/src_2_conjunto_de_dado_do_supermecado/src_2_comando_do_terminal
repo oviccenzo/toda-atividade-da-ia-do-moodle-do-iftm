@@ -1,0 +1,9 @@
+unix mac os calina:
+python3.8 -m venv venv
+source venv/bin/activate
+python3.8 src_2_conjunto_de_dado_do_supermecado/src_2_conjunto_frequente_da_cesta_do_supermecado.py
+
+lunix para window:
+python3.8 -m venv venv
+source venv/Scripts/activate
+python3.8 src_2_conjunto_de_dado_do_supermecado/src_2_conjunto_frequente_da_cesta_do_supermecado.py
