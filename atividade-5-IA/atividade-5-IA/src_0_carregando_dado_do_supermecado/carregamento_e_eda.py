@@ -1,3 +1,4 @@
+# /carregamento_e_eda.py
 import pandas as pd
 
 df = pd.read_csv("basket_supermercado_1000.csv")
