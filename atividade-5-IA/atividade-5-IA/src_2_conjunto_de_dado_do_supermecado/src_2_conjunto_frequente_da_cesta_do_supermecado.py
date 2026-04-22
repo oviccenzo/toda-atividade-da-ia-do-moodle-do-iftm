@@ -1,4 +1,4 @@
-#src_2 Conjunto frequentes
+#src_2_conjunto_de_dado_do_supermecado/src_2_conjunto_frequente_da_cesta_do_supermecado.py
 
 import pandas as pd
 from mlxtend.frequent_patterns import apriori
