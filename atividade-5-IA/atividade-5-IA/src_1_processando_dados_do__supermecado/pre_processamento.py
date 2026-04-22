@@ -1,3 +1,4 @@
+#src_1_processando_dados_do_supermecado/pre_processamento.py
 import pandas as pd
 df = pd.read_csv('basket_supermecado_1000.csv')
 
