@@ -1,3 +1,4 @@
+#src_3_geracao_das_regras/regra_de_associacao_dos_dados_do_supermecado.py
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 
