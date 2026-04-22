@@ -1,4 +1,4 @@
-# /carregamento_e_eda.py
+# src_0_carregando_dado_do_supermecado/carregamento_e_eda.py/carregamento_e_eda.py
 import pandas as pd
 
 df = pd.read_csv("basket_supermercado_1000.csv")
