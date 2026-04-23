@@ -7,3 +7,12 @@ lunix para window:
 python3.8 -m venv venv
 source venv/Scripts/activate
 python3.8 src_4_rules_e_analise/analise_de_dado_do_rules_do_supermercado.py
+
+possui a versão mais atualizado do pycharm a versao python 3.14:
+window linux
+py -3.14 -m venv venv
+.\venv\Scripts\Activate.ps1
+python caminho\arquivo.py
+
+e usado para encontrar onde esta a pasta:
+python (Get-ChildItem -Filter "carregamento_e_eda.py" -Recurse).FullName

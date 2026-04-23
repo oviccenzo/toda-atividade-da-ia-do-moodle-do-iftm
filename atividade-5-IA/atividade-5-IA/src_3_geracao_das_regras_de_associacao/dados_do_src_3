@@ -1,0 +1,44 @@
+Itemsets/Subconjuntos frequentes:
+      support                                           itemsets
+2567    0.010  frozenset({arroz, leite, doces, cafe, manteiga...
+3042    0.010  frozenset({arroz, frango, hortifruti, cerveja,...
+3716    0.010  frozenset({arroz, leite, limpeza, frango, feij...
+3715    0.010  frozenset({arroz, leite, frango, feijao, refri...
+3714    0.010  frozenset({arroz, leite, limpeza, frango, feij...
+...       ...                                                ...
+6       0.512                                frozenset({feijao})
+5       0.519                                 frozenset({arroz})
+20      0.624                            frozenset({leite, pao})
+1       0.630                                 frozenset({leite})
+0       0.633                                   frozenset({pao})
+
+[3742 rows x 2 columns]
+Regras de associação:
+                                             antecedents                                      consequents  antecedent support  ...   jaccard  certainty  kulczynski
+28515  frozenset({frango, refrigerante, cerveja, mant...           frozenset({feijao, arroz, leite, pao})               0.010  ...  0.031949   1.000000    0.515974
+28503  frozenset({pao, frango, refrigerante, manteiga...       frozenset({feijao, arroz, leite, cerveja})               0.010  ...  0.102041   1.000000    0.551020
+28520  frozenset({frango, refrigerante, manteiga, hor...  frozenset({arroz, leite, feijao, cerveja, pao})               0.010  ...  0.103093   1.000000    0.551546
+9094    frozenset({leite, acucar, frango, feijao, cafe})                                 frozenset({pao})               0.059  ...  0.093207   1.000000    0.546603
+28514  frozenset({frango, feijao, refrigerante, mante...          frozenset({cerveja, arroz, leite, pao})               0.010  ...  0.101010   1.000000    0.550505
+...                                                  ...                                              ...                 ...  ...       ...        ...         ...
+16119               frozenset({cafe, manteiga, limpeza})               frozenset({feijao, arroz, acucar})               0.028  ...  0.065728   0.375780    0.285176
+16118             frozenset({manteiga, acucar, limpeza})                 frozenset({feijao, arroz, cafe})               0.028  ...  0.065421   0.375000    0.285000
+16076       frozenset({feijao, arroz, manteiga, acucar})                        frozenset({frango, cafe})               0.062  ...  0.218310   0.437570    0.389640
+14783  frozenset({leite, acucar, feijao, refrigerante...                          frozenset({hortifruti})               0.020  ...  0.020000   0.019608    0.260204
+14369   frozenset({hortifruti, cafe, manteiga, cerveja})                 frozenset({refrigerante, leite})               0.022  ...  0.075862   0.422633    0.291045
+
+[28522 rows x 14 columns]
+       consequent support  confidence  support       lift
+28515               0.313         1.0    0.010   3.194888
+28503               0.098         1.0    0.010  10.204082
+28520               0.097         1.0    0.010  10.309278
+9094                0.633         1.0    0.059   1.579779
+28514               0.099         1.0    0.010  10.101010
+...                   ...         ...      ...        ...
+16119               0.199         0.5    0.014   2.512563
+16118               0.200         0.5    0.014   2.500000
+16076               0.111         0.5    0.031   4.504505
+14783               0.490         0.5    0.010   1.020408
+14369               0.134         0.5    0.011   3.731343
+
+[28522 rows x 4 columns]

@@ -1,0 +1,54 @@
+DataFrame with bool type
+  warnings.warn(
+
+O insights de negocios das compras
+Clientes que compram[feijao, refrigerante, leite] que tendem a comprar[pao, arroz, cerveja]
+Suporte: 0.06
+Confiança: 0.92
+Lift: 9.13
+--------------------------------------------------
+Clientes que compram[feijao, refrigerante, pao] que tendem a comprar[leite, arroz, cerveja]
+Suporte: 0.06
+Confiança: 0.91
+Lift: 9.08
+--------------------------------------------------
+Clientes que compram[leite, refrigerante, arroz] que tendem a comprar[feijao, pao, cerveja]
+Suporte: 0.06
+Confiança: 0.89
+Lift: 9.03
+--------------------------------------------------
+Clientes que compram[feijao, cerveja, leite] que tendem a comprar[refrigerante, pao, arroz]
+Suporte: 0.06
+Confiança: 0.60
+Lift: 8.99
+--------------------------------------------------
+Clientes que compram[refrigerante, pao, arroz] que tendem a comprar[feijao, cerveja, leite]
+Suporte: 0.06
+Confiança: 0.88
+Lift: 8.99
+--------------------------------------------------
+Clientes que compram[leite, frango, cafe, arroz] que tendem a comprar[feijao, pao, acucar]
+Suporte: 0.06
+Confiança: 0.97
+Lift: 7.80
+--------------------------------------------------
+Clientes que compram[pao, frango, cafe, arroz] que tendem a comprar[feijao, acucar, leite]
+Suporte: 0.06
+Confiança: 0.97
+Lift: 7.80
+--------------------------------------------------
+Clientes que compram[feijao, pao, frango, cafe] que tendem a comprar[leite, acucar, arroz]
+Suporte: 0.06
+Confiança: 0.97
+Lift: 7.74
+--------------------------------------------------
+Clientes que compram[feijao, frango, cafe, leite] que tendem a comprar[arroz, pao, acucar]
+Suporte: 0.06
+Confiança: 0.97
+Lift: 7.74
+--------------------------------------------------
+Clientes que compram[leite, frango, cafe] que tendem a comprar[feijao, pao, acucar, arroz]
+Suporte: 0.06
+Confiança: 0.92
+Lift: 7.56
+--------------------------------------------------

@@ -1,4 +1,4 @@
-# src_5_interpretacao dos negocios do supermercado a compra dos produtos identificado
+# src_5_interpretacao_dos_negocios_do_supermercado/dados_interpretacao_da_cesta_do_supermecado.py
 
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules

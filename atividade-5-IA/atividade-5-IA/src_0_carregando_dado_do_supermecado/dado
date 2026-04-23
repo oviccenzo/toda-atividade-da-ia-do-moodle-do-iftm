@@ -1,0 +1,101 @@
+transacao  pao  leite  cafe  manteiga  acucar  ...  cerveja  refrigerante  vinho  hortifruti  doces  limpeza
+0            1    1      1     0         0       0  ...        1             1      0           0      1        0
+1            2    1      1     1         0       1  ...        0             0      0           0      0        0
+2            3    1      1     0         0       0  ...        0             0      0           0      0        0
+3            4    1      1     0         0       0  ...        1             1      0           0      0        0
+4            5    0      0     0         0       0  ...        0             0      0           1      0        0
+..         ...  ...    ...   ...       ...     ...  ...      ...           ...    ...         ...    ...      ...
+995        996    1      1     1         1       1  ...        0             0      0           0      0        0
+996        997    1      1     0         1       0  ...        1             1      0           0      0        1
+997        998    1      1     1         0       1  ...        1             0      0           0      0        0
+998        999    0      0     0         0       0  ...        1             0      0           1      0        0
+999       1000    1      1     0         1       0  ...        1             1      0           0      1        0
+
+[1000 rows x 21 columns]
+   transacao  pao  leite  cafe  manteiga  acucar  ...  cerveja  refrigerante  vinho  hortifruti  doces  limpeza
+0          1    1      1     0         0       0  ...        1             1      0           0      1        0
+1          2    1      1     1         0       1  ...        0             0      0           0      0        0
+2          3    1      1     0         0       0  ...        0             0      0           0      0        0
+3          4    1      1     0         0       0  ...        1             1      0           0      0        0
+4          5    0      0     0         0       0  ...        0             0      0           1      0        0
+
+[5 rows x 21 columns]
+As primeiras linha dos dataset:
+   transacao  pao  leite  cafe  manteiga  acucar  ...  cerveja  refrigerante  vinho  hortifruti  doces  limpeza
+0          1    1      1     0         0       0  ...        1             1      0           0      1        0
+1          2    1      1     1         0       1  ...        0             0      0           0      0        0
+2          3    1      1     0         0       0  ...        0             0      0           0      0        0
+3          4    1      1     0         0       0  ...        1             1      0           0      0        0
+4          5    0      0     0         0       0  ...        0             0      0           1      0        0
+
+[5 rows x 21 columns]
+São os resumos dos dataset:
+         transacao          pao        leite         cafe  ...        vinho  hortifruti        doces      limpeza
+count  1000.000000  1000.000000  1000.000000  1000.000000  ...  1000.000000  1000.00000  1000.000000  1000.000000
+mean    500.500000     0.633000     0.630000     0.393000  ...     0.032000     0.49000     0.131000     0.252000
+std     288.819436     0.482228     0.483046     0.488661  ...     0.176088     0.50015     0.337569     0.434379
+min       1.000000     0.000000     0.000000     0.000000  ...     0.000000     0.00000     0.000000     0.000000
+25%     250.750000     0.000000     0.000000     0.000000  ...     0.000000     0.00000     0.000000     0.000000
+50%     500.500000     1.000000     1.000000     0.000000  ...     0.000000     0.00000     0.000000     0.000000
+75%     750.250000     1.000000     1.000000     1.000000  ...     0.000000     1.00000     0.000000     1.000000
+max    1000.000000     1.000000     1.000000     1.000000  ...     1.000000     1.00000     1.000000     1.000000
+
+[8 rows x 21 columns]
+São os valores ausentes por colunas dos dataset:
+transacao       0
+pao             0
+leite           0
+cafe            0
+manteiga        0
+acucar          0
+arroz           0
+feijao          0
+macarrao        0
+carne           0
+frango          0
+peixe           0
+ovos            0
+queijo          0
+presunto        0
+cerveja         0
+refrigerante    0
+vinho           0
+hortifruti      0
+doces           0
+limpeza         0
+dtype: int64
+     pao  leite  cafe  manteiga  acucar  arroz  ...  cerveja  refrigerante  vinho  hortifruti  doces  limpeza
+0      1      1     0         0       0      0  ...        1             1      0           0      1        0
+1      1      1     1         0       1      1  ...        0             0      0           0      0        0
+2      1      1     0         0       0      1  ...        0             0      0           0      0        0
+3      1      1     0         0       0      0  ...        1             1      0           0      0        0
+4      0      0     0         0       0      1  ...        0             0      0           1      0        0
+..   ...    ...   ...       ...     ...    ...  ...      ...           ...    ...         ...    ...      ...
+995    1      1     1         1       1      0  ...        0             0      0           0      0        0
+996    1      1     0         1       0      0  ...        1             1      0           0      0        1
+997    1      1     1         0       1      1  ...        1             0      0           0      0        0
+998    0      0     0         0       0      0  ...        1             0      0           1      0        0
+999    1      1     0         1       0      1  ...        1             1      0           0      1        0
+
+[1000 rows x 20 columns]
+São as frequencia de compras dos produtos dos dataset: pao             633
+leite           630
+arroz           519
+feijao          512
+hortifruti      490
+cafe            393
+acucar          390
+manteiga        346
+cerveja         338
+frango          288
+carne           261
+limpeza         252
+refrigerante    210
+doces           131
+macarrao         39
+peixe            37
+vinho            32
+presunto         32
+ovos             31
+queijo           31
+dtype: int64
