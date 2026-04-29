@@ -58,17 +58,3 @@ Previsão de Séries Temporais Financeiras com Redes Neurais
    A avalição do desempenho do modelo mostrou ativo voláteis tipo TSLA, AAPL mostram o erro maiores.
    As previsões seguiram preço de padrões coerentes com os preços reais.
   
-
-
-
-
-
-
-
-
-
-
-atividade 2
-
-
-atividade 3 
