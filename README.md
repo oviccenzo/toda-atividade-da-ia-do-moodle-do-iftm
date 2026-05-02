@@ -3,7 +3,7 @@
 # Atividades IA - Moodle IFTM
 
 ## Atividade 1
-[📂 Acessar pasta da Atividade 1](atividade-1-IA)
+[📂 Acessar pasta da Atividade 1] (atividade-1-IA)
 
 ## Atividade 2
 [📂 Acessar pasta da Atividade 2](atividade-2-IA)
