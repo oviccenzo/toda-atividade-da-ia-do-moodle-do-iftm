@@ -1,0 +1,65 @@
+ /tmp/ipykernel_155/1703499125.py:6: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=data_inicio, end=data_fim)
+[*********************100%***********************]  1 of 1 completed
+
+Analise exploratoria(EDA): PETR4.SA
+Price           Close       High        Low       Open    Volume
+Ticker       PETR4.SA   PETR4.SA   PETR4.SA   PETR4.SA  PETR4.SA
+Date
+2024-12-20  31.871262  32.303707  31.750177  32.139379  59277400
+2024-12-23  31.879910  32.044238  31.758825  32.000994  43785600
+2024-12-26  32.119564  32.326091  31.966911  31.993852  22920700
+2024-12-27  32.020790  32.326092  31.975893  32.326092  24167200
+2024-12-30  32.496700  32.658331  32.119564  32.128542  22355600
+/tmp/ipykernel_155/1703499125.py:6: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=data_inicio, end=data_fim)
+[*********************100%***********************]  1 of 1 completed
+
+Analise exploratoria(EDA): VALE3.SA
+Price           Close       High        Low       Open    Volume
+Ticker       VALE3.SA   VALE3.SA   VALE3.SA   VALE3.SA  VALE3.SA
+Date
+2024-12-20  48.259750  48.259750  47.119968  47.199484  64919500
+2024-12-23  48.462971  48.798722  48.065374  48.303931  18587900
+2024-12-26  48.604336  48.948925  48.065370  48.462967  13155800
+2024-12-27  48.365776  48.666185  48.118379  48.356939  16635300
+2024-12-30  48.197903  48.763377  48.197903  48.507149  11250900
+/tmp/ipykernel_155/1703499125.py:6: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=data_inicio, end=data_fim)
+[*********************100%***********************]  1 of 1 completed
+
+Analise exploratoria(EDA): ITUB4.SA
+Price           Close       High        Low       Open    Volume
+Ticker       ITUB4.SA   ITUB4.SA   ITUB4.SA   ITUB4.SA  ITUB4.SA
+Date
+2024-12-20  24.455967  24.471495  24.114360  24.114360  60210112
+2024-12-23  23.982378  24.308457  23.873685  24.168709  31425454
+2024-12-26  24.137653  24.246348  23.904739  23.951323  23278278
+2024-12-27  23.896978  24.246350  23.896978  24.184239  15418543
+2024-12-30  23.858158  24.122128  23.858158  23.966851  32151480
+/tmp/ipykernel_155/1703499125.py:6: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=data_inicio, end=data_fim)
+[*********************100%***********************]  1 of 1 completed
+
+Analise exploratoria(EDA): AAPL
+Price            Close        High         Low        Open    Volume
+Ticker            AAPL        AAPL        AAPL        AAPL      AAPL
+Date
+2024-12-24  256.797211  256.807136  253.903002  254.101927  23234700
+2024-12-26  257.612732  258.686881  256.230300  256.787255  27237100
+2024-12-27  254.201370  257.294489  251.685117  256.429191  42355300
+2024-12-30  250.829803  252.122744  249.387684  250.859639  35557500
+2024-12-31  249.059464  251.903926  248.074837  251.068493  39480700
+/tmp/ipykernel_155/1703499125.py:6: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=data_inicio, end=data_fim)
+[*********************100%***********************]  1 of 1 completed
+
+Analise exploratoria(EDA): TSLA
+Price            Close        High         Low        Open    Volume
+Ticker            TSLA        TSLA        TSLA        TSLA      TSLA
+Date
+2024-12-24  462.279999  462.779999  435.140015  435.899994  59551800
+2024-12-26  454.130005  465.329987  451.019989  465.160004  76366400
+2024-12-27  431.660004  450.000000  426.500000  449.519989  82666800
+2024-12-30  417.410004  427.000000  415.750000  419.399994  64941000
+2024-12-31  403.839996  427.929993  402.540009  423.790009  76825100
