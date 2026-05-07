@@ -35,4 +35,4 @@ As metodologias minhas sobre a cesta de supermercado 1000 compra segue:
 6. A a interpretação dos dados dos resultado sob a ótica dos negócios
 
 A descrição do repositórios:
-[acessar o arquivo src_0_carregando_dado_do_supermecado](carregamento_e_eda.py)
+[acessar o arquivo src_0_carregando_dado_do_supermecado/](carregamento_e_eda.py)
