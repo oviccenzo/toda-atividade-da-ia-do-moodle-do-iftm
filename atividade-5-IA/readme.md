@@ -46,3 +46,7 @@ src_3_geracao_das_regras_de_associação/ regras_de_associação_dos_dados_do_su
 src_4_rules_e_analise / analise_de_dado_do_rules_supermercado.py
 
 src_5_interpretação_dos_negocios_do_supermecado / dados_interpretacao_da_cesta_do_supermecado.py
+
+
+AS métricas utilizadas são:
+Suporte que combinas as frequencias dos produtos combinados durante a execução do codigo para poder mostar o suporte dos produtos
