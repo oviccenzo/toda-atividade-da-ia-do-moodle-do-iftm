@@ -36,8 +36,13 @@ As metodologias minhas sobre a cesta de supermercado 1000 compra segue:
 
 A descrição do repositórios:
 src_0_carregando_dado_do_supermecado/ carregamento_e_eda.py
+
 src_1_processando_dado_do_supermercado/ pre_processamento.py
+
 src_2_conjunto_de_dados_do_supermecado/ conjunto_frequente_da_cesta_do_supermercado.py
+
 src_3_geracao_das_regras_de_associação/ regras_de_associação_dos_dados_do_supermercado.py
+
 src_4_rules_e_analise / analise_de_dado_do_rules_supermercado.py
+
 src_5_interpretação_dos_negocios_do_supermecado / dados_interpretacao_da_cesta_do_supermecado.py
