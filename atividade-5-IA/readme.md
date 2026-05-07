@@ -33,3 +33,6 @@ As metodologias minhas sobre a cesta de supermercado 1000 compra segue:
 4. A geração de insights para gerar regras de associação
 5. A analises dos dados métricas sobre os dados seria (suporte, confiança e lift)
 6. A a interpretação dos dados dos resultado sob a ótica dos negócios
+
+A descrição do repositórios:
+[acesar a pasta src_0_carregando_dado_do_supermecado](carregamento_e_eda.py)
