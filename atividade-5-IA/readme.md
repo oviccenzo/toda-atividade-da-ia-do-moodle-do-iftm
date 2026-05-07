@@ -25,3 +25,11 @@ As característica do dataset:
 
 Os produtos analisado incluem itens básicos, alimentos, bebidas, hortifruti, doces e produto de limpezas
 
+
+As metodologias minhas sobre a cesta de supermercado 1000 compra segue:
+1. O carregamento e exploração dos dados
+2. O pré-processamento dos dados
+3. A extração dos dados de conjuntos frequentes que é p algoritmo(apriori)
+4. A geração de insights para gerar regras de associação
+5. A analises dos dados métricas sobre os dados seria (suporte, confiança e lift)
+6. A a interpretação dos dados dos resultado sob a ótica dos negócios
