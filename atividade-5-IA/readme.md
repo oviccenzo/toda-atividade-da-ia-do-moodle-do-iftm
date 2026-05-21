@@ -50,3 +50,84 @@ src_5_interpretação_dos_negocios_do_supermecado / dados_interpretacao_da_cesta
 
 AS métricas utilizadas são:
 Suporte que combinas as frequencias dos produtos combinados durante a execução do codigo para poder mostar o suporte dos produtos
+
+### 🔹 Quais produtos apresentam maior associação entre si?
+
+Os produtos mais associados são aqueles que fazem parte de compras básicas do dia a dia:
+
+- **Arroz ↔ Feijão**
+- **Pão ↔ Leite**
+- **Café ↔ Açúcar**
+- **Carne ↔ Arroz/Feijão**
+
+Essas relações refletem padrões naturais de consumo e hábitos alimentares dos clientes.
+
+---
+
+### 🔹 Existem produtos que funcionam como “âncora” para outras compras?
+
+Sim. Alguns produtos aparecem com alta frequência e puxam outras compras:
+
+- **Pão** → associado a leite, manteiga e café  
+- **Arroz** → associado a feijão e proteínas (carne/frango)  
+- **Cerveja** → associada a carnes e refrigerante  
+
+Esses produtos funcionam como **gatilhos de compra**, influenciando o cliente a adquirir mais itens.
+
+---
+
+### 🔹 Quais regras possuem maior potencial para ações promocionais?
+
+As melhores regras são aquelas com **alta confiança e alto lift**, por exemplo:
+
+- Combo **Arroz + Feijão**
+- Promoção **Café + Açúcar**
+- Combinação **Carne + Cerveja**
+
+Essas regras são ideais para:
+
+- Promoções conjuntas  
+- Descontos combinados  
+- Kits de produtos  
+
+---
+
+### 🔹 Alguma regra encontrada pode ser considerada enganosa ou pouco útil? Por quê?
+
+Sim. Algumas regras apresentam:
+
+- Alta confiança  
+- **Lift próximo de 1**
+
+Isso significa que os produtos aparecem juntos **por popularidade**, não por forte relação.
+
+Exemplo:
+- Produtos muito comuns (como pão e hortifruti)
+
+Essas regras são **pouco úteis para estratégia**, pois não indicam oportunidade real de venda cruzada.
+
+---
+
+### 🔹 Como os resultados podem impactar o layout do supermercado ou estratégias de venda?
+
+Os resultados podem ser usados para:
+
+### 🏬 Layout
+- Colocar **arroz e feijão próximos**
+- Agrupar **café, açúcar e doces**
+- Posicionar **cerveja próxima a carnes/snacks**
+
+### 💰 Estratégias
+- Criar promoções combinadas  
+- Desenvolver combos semanais  
+- Oferecer recomendações personalizadas  
+
+Isso melhora a experiência do cliente e aumenta o faturamento.
+
+---
+
+## 🛠️ Tecnologias
+
+- Python  
+- Pandas  
+- Mlxtend  
