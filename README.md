@@ -18,4 +18,4 @@
 [📂 Acessar pasta da Atividade 5](atividade-5-IA)
 
 ## Projeto Final de IA
-[📂 Acessar arquivo da Projeto Final de IA](Projeto-final-de-IA)
+[📂 Acessar pasta do Projeto Final de IA](Projeto-Final-de-IA)
