@@ -1,0 +1,46 @@
+Trabalho final
+Aberto: quinta-feira, 21 mai. 2026, 00:00 
+Vencimento: quinta-feira, 18 jun. 2026, 23:55 
+
+Enunciado do trabalho final da disciplina.
+Trabalho Final – Disciplina de Inteligência Artificial
+Objetivo Desenvolver um projeto individual que aplique técnicas de Inteligência Artificial na resolução de um problema real ou simulado, demonstrando domínio conceitual, implementação prática e capacidade de documentação e reprodutibilidade.
+
+1. Tema do Trabalho
+	•	O tema é de livre escolha do aluno, devendo obrigatoriamente envolver Inteligência Artificial. 
+	•	O tema deve ser aprovado pelo professor até o dia 28/05/2026, no local próprio dentro do AVA. 
+	•	O trabalho pode ser:
+	◦	Uma aplicação de Inteligência Artificial em outra disciplina; 
+	◦	Uma aplicação de Inteligência Artificial em projeto de pesquisa; 
+	◦	Uma aplicação de Inteligência Artificial em atividades do PET; 
+	◦	Caso o aluno não esteja vinculado a nenhuma dessas opções, poderá propor outra aplicação, desde que devidamente justificada e aprovada pelo professor. 
+
+2. Entrega
+	•	A entrega será realizada exclusivamente por meio do link de um repositório no GitHub. 
+	•	O repositório deve conter:
+	◦	Todo o código-fonte do projeto; 
+	◦	Um arquivo README.md, obrigatoriamente, com:
+	▪	Descrição do problema; 
+	▪	Descrição da solução proposta; 
+	▪	Tecnologias e bibliotecas utilizadas; 
+	▪	Instruções claras e completas de como executar o projeto; 
+	▪	Requisitos de ambiente (linguagem, versões, dependências, etc.). 
+
+3. Execução do Projeto
+	•	O projeto deve rodar corretamente seguindo as instruções descritas no README.md. 
+	•	Caso o projeto não execute, a nota será zero. 
+	•	Caso o repositório esteja vazio, a nota será zero. 
+
+4. Forma de Trabalho
+	•	O trabalho é exclusivamente individual. 
+	•	Qualquer indício de plágio ou compartilhamento indevido de código implicará em nota zero, conforme as normas acadêmicas da instituição. 
+
+5. Prazo e Avaliação
+	•	Entrega até 18/06/2026: vale 100% da nota. 
+	•	Entrega entre 19/06/2026 e 25/06/2026: vale 60% da nota. 
+	•	Entregas após 25/06/2026 não serão aceitas. 
+
+6. Considerações Finais
+	•	O aluno é responsável por garantir que o repositório esteja público (ou acessível ao professor), organizado e funcional. 
+	•	Projetos bem documentados, com código claro, justificativas técnicas e boa aplicação dos conceitos de Inteligência Artificial, serão melhor avaliados. 
+	•	Em caso de dúvidas, procure o professor antes do prazo final de submissão do tema. 
