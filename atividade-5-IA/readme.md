@@ -131,3 +131,9 @@ Isso melhora a experiência do cliente e aumenta o faturamento.
 - Python  
 - Pandas  
 - Mlxtend  
+
+
+Conclusão a analise mostrou como o comportamento da compra segue os padrões previsíveis permitindo: 
+O melhor plenejamento estrategico
+O aumento do ticket médio
+A decisões baseada em dados
