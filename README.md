@@ -20,4 +20,4 @@ Atividades IA - Moodle IFTM
 [📂 Acessar pasta da Atividade 5](atividade-5-IA)
 
 ## Projeto-Final-de-IA
-[📂 Acessar pasta do Projeto-final-de-IA](Projeto-final-de-IA)
+[📂 Acessar pasta do Projeto final de IA](Projeto-final-de-IA)
