@@ -1,8 +1,6 @@
-<h1> todas as atividade da ia do ava iftm moodle 
-------------------------------------------------
+# Todas as Atividades de IA do AVA IFTM Moodle
 
-
-Atividades IA - Moodle IFTM
+---
 
 ## Atividade 1
 [📂 Acessar pasta da Atividade 1](atividade-1-IA)
@@ -19,5 +17,5 @@ Atividades IA - Moodle IFTM
 ## Atividade 5
 [📂 Acessar pasta da Atividade 5](atividade-5-IA)
 
-## Projeto-Final-de-IA
-[📂 Acessar pasta do Projeto final de IA](Projeto-final-de-IA)
+## Projeto Final de IA
+[📂 Acessar pasta do Projeto Final de IA](Projeto-final-de-IA)
