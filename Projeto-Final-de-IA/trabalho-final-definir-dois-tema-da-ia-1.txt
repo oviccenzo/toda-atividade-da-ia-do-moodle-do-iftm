@@ -4,7 +4,8 @@ Vencimento: quinta-feira, 18 jun. 2026, 23:55
 
 Enunciado do trabalho final da disciplina.
 Trabalho Final – Disciplina de Inteligência Artificial
-Objetivo Desenvolver um projeto individual que aplique técnicas de Inteligência Artificial na resolução de um problema real ou simulado, demonstrando domínio conceitual, implementação prática e capacidade de documentação e reprodutibilidade.
+Objetivo Desenvolver um projeto individual que aplique técnicas de Inteligência Artificial na resolução de um problema 
+real ou simulado, demonstrando domínio conceitual, implementação prática e capacidade de documentação e reprodutibilidade.
 
 1. Tema do Trabalho
 	•	O tema é de livre escolha do aluno, devendo obrigatoriamente envolver Inteligência Artificial. 
@@ -13,7 +14,8 @@ Objetivo Desenvolver um projeto individual que aplique técnicas de Intelig�
 	◦	Uma aplicação de Inteligência Artificial em outra disciplina; 
 	◦	Uma aplicação de Inteligência Artificial em projeto de pesquisa; 
 	◦	Uma aplicação de Inteligência Artificial em atividades do PET; 
-	◦	Caso o aluno não esteja vinculado a nenhuma dessas opções, poderá propor outra aplicação, desde que devidamente justificada e aprovada pelo professor. 
+	◦	Caso o aluno não esteja vinculado a nenhuma dessas opções, poderá propor outra aplicação, 
+		desde que devidamente justificada e aprovada pelo professor. 
 
 2. Entrega
 	•	A entrega será realizada exclusivamente por meio do link de um repositório no GitHub. 
@@ -42,5 +44,6 @@ Objetivo Desenvolver um projeto individual que aplique técnicas de Intelig�
 
 6. Considerações Finais
 	•	O aluno é responsável por garantir que o repositório esteja público (ou acessível ao professor), organizado e funcional. 
-	•	Projetos bem documentados, com código claro, justificativas técnicas e boa aplicação dos conceitos de Inteligência Artificial, serão melhor avaliados. 
+	•	Projetos bem documentados, com código claro, justificativas técnicas e boa aplicação dos conceitos 
+		de Inteligência Artificial, serão melhor avaliados. 
 	•	Em caso de dúvidas, procure o professor antes do prazo final de submissão do tema. 
