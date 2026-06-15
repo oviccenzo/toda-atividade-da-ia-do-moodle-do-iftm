@@ -14,7 +14,7 @@ possui a versão mais atualizado do pycharm a versao python 3.14:
 window linux
 py -3.14 -m venv venv
 .\venv\Scripts\Activate.ps1
-python caminho\arquivo.py
+python src_0_carregando_dado_do_supermecado\carregamento_e_eda.py
 
 e usado para encontrar onde esta a pasta:
 python (Get-ChildItem -Filter "carregamento_e_eda.py" -Recurse).FullName
