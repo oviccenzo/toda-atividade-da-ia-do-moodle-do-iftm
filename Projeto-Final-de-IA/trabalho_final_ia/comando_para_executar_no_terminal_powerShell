@@ -1,0 +1,6 @@
+Comando para executar o venv e depois executar py app.py:
+py -3.14 -m venv venv
+.\venv\Scripts\Activate.ps1
+py servidor\app.py 
+
+py (Get-ChildItem -Filter "app.py" -Recurse).FullName
