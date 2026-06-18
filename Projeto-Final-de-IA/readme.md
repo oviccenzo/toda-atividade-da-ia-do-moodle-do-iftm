@@ -38,20 +38,20 @@ Ao receber uma frase inédita, o modelo aplica a função sigmoide à soma ponde
 O projeto está organizado na seguinte estrutura de diretórios:
 
 ```text
-trabalho_ia/
-│
-├── app.py                   # Servidor web (Backend em Flask)
-├── treinar_modelo.py        # Script para baixar os dados e treinar a IA
-├── modelo_sentimento.pkl    # Modelo matemático treinado (Gerado pelo script)
-├── vetorizador.pkl          # Vocabulário treinado (Gerado pelo script)
-├── requirements.txt         # Lista de dependências do projeto
-│
-├── static/                  # Arquivos estáticos do Frontend
-│   ├── style.css            # Estilização visual (CSS)
-│   └── script.js            # Lógica de requisições assíncronas (JS)
-│
-└── templates/               # Arquivos de renderização
-    └── index.html           # Interface visual principal (HTML)
+trabalho_final_ia/
+├── venv/                      (A pasta do seu ambiente virtual)
+└── servidor/                  (Sua pasta do servidor)
+    ├── app.py                 (O servidor Flask)
+    ├── treinar_modelo.py      (O script que você acabou de criar - AQUI!)
+    ├── modelo_sentimento.pkl  (Será gerado aqui)
+    ├── vetorizador.pkl        (Será gerado aqui)
+    │
+    ├── templates/             (PASTA SÓ PARA HTML)
+    │   └── index.html
+    │
+    └── static/                (PASTA SÓ PARA VISUAL DO FRONT)
+        ├── style.css
+        └── script.js
 
 5. Tecnologias e Bibliotecas Utilizadas
 
