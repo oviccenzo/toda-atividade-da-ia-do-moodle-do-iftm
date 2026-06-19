@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA - Análise de Sentimentos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Análise de Feedbacks e Sentimentos</h2>
+        <p class="subtitle">Modelo treinado com Machine Learning</p>
+
+        <form action="/analisar" method="POST">
+            <textarea name="avaliacao" id="texto-de-avaliacao" placeholder="Cole a avaliação do cliente aqui..." required></textarea>
+            <br><br>
+            <button type="submit" id="btn-analisar">Analisar Sentimentos</button>
+        </form>
+
+        <br>
+        <hr>
+        
+        <div id="resultado-box">
+            <p><strong>Texto digitado: </strong><br><i>{{ texto_analisado }}</i></p>
+            <p><strong>Veredito da IA: </strong><span>{{ resultado }}</span></p>
+            <p><small>Confiança Estatística: <b>{{ confianca }}</b><b>%</b></small></p>
+        </div>
+    </div>
+</body>
+</html>
