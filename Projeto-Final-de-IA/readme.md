@@ -108,6 +108,7 @@ O terminal exibirá a linha de execução local. Segure a tecla Ctrl e clique no
 Plaintext
 
 [http://127.0.0.1:5000](http://127.0.0.1:5000)
+esse é o link do acesso http://127.0.0.1:5000
 
 Para encerrar o servidor web após os testes, basta clicar no terminal do PyCharm e pressionar a combinação de teclas Ctrl + C.
 Lembrete Importante
